@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu-items{
+    @apply px-3 py-1 rounded-md w-fit hover:bg-purple-500 hover:bg-opacity-40 cursor-pointer;
+}
