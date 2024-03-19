@@ -5,6 +5,7 @@ import HomePage from "./components/HomePage"
 import ButtonPage from "./pages/ButtonPage"
 import AlertPage from "./pages/AlertPage"
 import AccordionPage from "./pages/AccordionPage"
+import CardPage from "./pages/CardPage"
 
 function App() {
 
@@ -19,7 +20,7 @@ function App() {
         <Route path="/buttons" element={<ButtonPage/>}/>
         <Route path="/accordion" element={<AccordionPage/>}/>
         <Route path="/alerts" element={<AlertPage/>}/>
-        <Route path="/cards" element={''}/>
+        <Route path="/cards" element={<CardPage/>}/>
       </Routes>
     </div>
    </div>
