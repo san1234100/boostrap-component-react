@@ -9,7 +9,7 @@ const Accordion = ({title = 'Unknown',desc = '',...props}) => {
     <div>
       <div
         onClick={toggleAccordion}
-        className="p-5 cursor-pointer bg-green-100 rounded-t font-semibold flex items-center justify-between"
+        className="p-5 cursor-pointer border border-gray-500 bg-gray-800 rounded-t font-semibold flex items-center justify-between"
       >
         <h4 className="select-none">{title}</h4>
         <svg
@@ -25,7 +25,7 @@ const Accordion = ({title = 'Unknown',desc = '',...props}) => {
           />
         </svg>
       </div>
-      <div className={`p-5 bg-green-50 ${accordionActive ? "" : "hidden"}`}>
+      <div className={`p-5 bg-gray-900 bg-opacity-30 ${accordionActive ? "" : "hidden"}`}>
         <p>{desc}</p>
         <p>{props.children ? props.children : ''}</p>
       </div>

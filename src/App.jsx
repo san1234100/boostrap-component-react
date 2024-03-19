@@ -4,6 +4,7 @@ import TheHeader from "./components/TheHeader"
 import HomePage from "./components/HomePage"
 import ButtonPage from "./pages/ButtonPage"
 import AlertPage from "./pages/AlertPage"
+import AccordionPage from "./pages/AccordionPage"
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage/>}/>
         <Route path="/buttons" element={<ButtonPage/>}/>
-        <Route path="/accordion" element={''}/>
+        <Route path="/accordion" element={<AccordionPage/>}/>
         <Route path="/alerts" element={<AlertPage/>}/>
         <Route path="/cards" element={''}/>
       </Routes>

@@ -7,17 +7,17 @@ const Menu = () => {
             <h4 className="font-semibold text-lg ">Components</h4>
              <ul className="space-y-1 mt-3 font-medium">
                 <li className="menu-items">
-                    <Link to={'/buttons'}>Buttons</Link>
+                <Link to={'/accordion'}>Accordion</Link>
                 </li>
                 <li className="menu-items">
                      <Link to={'/alerts'}>Alerts</Link>
                 </li>
                 <li className="menu-items">
-                <Link to={'/cards'}>Cards</Link>
+                    <Link to={'/buttons'}>Buttons</Link>
                 </li>
                 <li className="menu-items">
-                <Link to={'/accordion'}>Accordion</Link>
-                </li>
+                <Link to={'/cards'}>Cards</Link>
+                </li>            
              </ul>
         </div>
      );
