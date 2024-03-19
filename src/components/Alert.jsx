@@ -1,4 +1,3 @@
-import { useState } from "react";
 import propTypes from "prop-types"
 const Alert = ({text='Unknown',color='primary'}) => {
    

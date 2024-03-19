@@ -3,6 +3,7 @@ import Menu from "./components/Menu"
 import TheHeader from "./components/TheHeader"
 import HomePage from "./components/HomePage"
 import ButtonPage from "./pages/ButtonPage"
+import AlertPage from "./pages/AlertPage"
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
         <Route path="/" element={<HomePage/>}/>
         <Route path="/buttons" element={<ButtonPage/>}/>
         <Route path="/accordion" element={''}/>
-        <Route path="/alerts" element={''}/>
+        <Route path="/alerts" element={<AlertPage/>}/>
         <Route path="/cards" element={''}/>
       </Routes>
     </div>
