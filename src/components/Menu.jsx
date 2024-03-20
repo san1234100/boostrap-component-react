@@ -13,6 +13,9 @@ const Menu = () => {
                      <Link to={'/alerts'}>Alerts</Link>
                 </li>
                 <li className="menu-items">
+                    <Link to={'/badges'}>Badges</Link>
+                </li>
+                <li className="menu-items">
                     <Link to={'/buttons'}>Buttons</Link>
                 </li>
                 <li className="menu-items">

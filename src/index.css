@@ -58,3 +58,33 @@
 .btn-dark{
     @apply bg-[#212529] text-white hover:bg-[#424649]
 }
+
+
+
+
+/* badge */
+
+.badge-primary{
+    @apply bg-[#0d6efd] text-white;
+}
+.badge-secondary{
+    @apply bg-[#6c757d] text-white;
+}
+.badge-success{
+    @apply bg-[#198754] text-white;
+}
+.badge-danger{
+    @apply bg-[#dc3545] text-white;
+}
+.badge-warning{
+    @apply bg-[#ffc107] text-black;
+}
+.badge-info{
+    @apply bg-[#0dcaf0] text-black;
+}
+.badge-light{
+    @apply bg-[#f8f9fa] text-black;
+}
+.badge-dark{
+    @apply bg-[#212529] text-white;
+}

@@ -6,6 +6,7 @@ import ButtonPage from "./pages/ButtonPage"
 import AlertPage from "./pages/AlertPage"
 import AccordionPage from "./pages/AccordionPage"
 import CardPage from "./pages/CardPage"
+import BadgePage from "./pages/BadgePage"
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/accordion" element={<AccordionPage/>}/>
         <Route path="/alerts" element={<AlertPage/>}/>
         <Route path="/cards" element={<CardPage/>}/>
+        <Route path="/badges" element={<BadgePage/>}/>
       </Routes>
     </div>
    </div>

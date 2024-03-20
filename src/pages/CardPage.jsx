@@ -30,7 +30,7 @@ const CardPage = () => {
         {/* cards */}
         <div className="px-20 pb-5">
          
-           <Card title="Java" img="../src/assets/images/top-web-development.jpg">
+           <Card title="Java" size="xs" img="../src/assets/images/top-web-development.jpg">
            Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization
            </Card>
         </div>
